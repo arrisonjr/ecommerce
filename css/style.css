@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.azul-1 {
+  color: #5a9dd9 !important;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.dropdown-menu {
+  border: none;
+}
+
+.dropdown-item {
+  color: #5a9dd9;
+}
+
+.dropdown-item:visited {
+  background: #5a9dd9;
+}
+
+.btn:hover {
+  color: #bcdeff;
+}
+
+.btn-azul {
+  color: #fff;
+  background-color: #5a9dd9;
+  border-color: #bcdeff;
+}
+
+.card {
+  border: none;
+}
+
+.links ul li a {
+  color: #5a9dd9;
+}
+
+.links ul li a:hover {
+  color: #bcdeff;
+}
+
+#newsletter {
+  background: #bcdeff;
+  color: #fff;
+  padding: 60px;
+  text-align: center;
+}
+
+#footer {
+  padding: 60px;
+}
+
+#footer a,
+h5 {
+  color: #5a9dd9;
+}
+
+#footer h5 {
+  border-bottom: 3px solid #5a9dd9;
+}
+
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .maisvendidos {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 990px) {
+  .produtos {
+    flex-direction: column;
+    margin-top: 1em;
+    align-content: center;
+  }
+}
